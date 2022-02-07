@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+/* font-family: 'Anonymous Pro', monospace; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+#header {
+  background-color: orange;
+  height: 80px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+#brand {
+  height: 70px;
+  width: 50%;
+  float: left;
+  padding: 23px 25px 15px 25px;
+}
+
+.logo_brand {
+  color: white;
+  font-family: "Anonymous Pro", monospace;
+}
+
+.fa-code {
+  color: white;
+  float: left;
+  margin-right: 10px;
+}
+
+#navbar {
+  height: 70px;
+  width: 50%;
+  float: left;
+}
+
+#carousel {
+  background-color: orange;
+  height: 600px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+#container {
+  background-color: orange;
+  height: 400px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+#footer {
+  background-color: orange;
+  height: 300px;
+  margin-bottom: 20px;
+  width: 100%;
+}
