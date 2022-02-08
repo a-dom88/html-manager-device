@@ -17,6 +17,7 @@ body {
   height: 80px;
   margin: 0 auto;
   width: 80%;
+  border-bottom: 5px solid grey;
 }
 
 #brand {
@@ -44,7 +45,7 @@ body {
 
 #carousel {
   background-color: orange;
-  height: 900px;
+  height: 600px;
   margin: 0 auto;
   width: 80%;
 }
@@ -53,7 +54,7 @@ body {
   color: white;
   font-size: 90px;
   text-align: center;
-  margin-top: -550px;
+  margin-top: -350px;
 }
 
 .containerpattern {
@@ -76,15 +77,15 @@ body {
 }
 
 .hrpattern {
-  height: 150px;
-  width: 600px;
+  height: 100px;
+  width: 300px;
   transform: rotate(180deg);
 }
 
 .box {
   width: 23%;
   height: 300px;
-  background: white;
+  background-color: white;
   border-radius: 10px;
   float: left;
   margin-top: 10px;
@@ -96,8 +97,12 @@ body {
   min-width: 300px;
 }
 
+.fa-facebook-square {
+  color: grey;
+}
+
 .title {
-  color: black;
+  color: grey;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 30px;
@@ -105,7 +110,7 @@ body {
 }
 
 p {
-  color: black;
+  color: grey;
   text-align: justify;
 }
 
@@ -119,20 +124,22 @@ button {
   border: none;
 }
 
-.fa-thumb-tack {
+/* .fa-thumb-tack {
   color: black;
   transform: rotate(35deg) scale(0.7);
-}
+} */
 
 #footer {
   background-color: orange;
-  height: 100px;
-  margin: 0 auto 20px;
+  height: 250px;
+  margin: 0 auto;
   width: 80%;
   position: sticky;
   bottom: 0;
-  padding: 40px;
-  text-align: center;
+  /* padding: 40px; */
+  /* text-align: center; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-top: 5px solid grey;
 }
 
 a {
@@ -148,14 +155,45 @@ a:hover {
   margin: 10px;
 }
 
+.fa-facebook-square:hover {
+  color: blue;
+}
+
 ul {
   list-style-type: none;
   text-align: right;
   line-height: 40px;
   font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 li {
   display: inline;
   margin-left: 15px;
+}
+
+.footerbox {
+  width: 29.4%;
+  height: 200px;
+  float: left;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+  margin-left: 3%;
+  background-color: transparent;
+  border-right: 3px solid white;
+}
+
+#end_footer {
+  border-right: none;
+}
+
+.copy {
+  color: white;
+  height: 40px;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Anonymous Pro", monospace;
+  border-top: 3px solid white;
+  padding: 10px;
 }
