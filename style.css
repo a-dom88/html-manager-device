@@ -180,13 +180,13 @@ li {
   width: 29.4%;
   height: 200px;
   float: left;
-  margin-top: 1.5%;
+  margin-top: 1%;
   margin-bottom: 1.5%;
   margin-left: 3%;
   background-color: transparent;
   border-right: 3px solid grey;
   color: white;
-  padding: 10px;
+  padding: 5px 10px;
 }
 
 .ul_one {
@@ -231,6 +231,7 @@ li {
   color: grey;
   font-family: "Anonymous Pro", monospace;
   display: block;
+  margin-bottom: 15px;
 }
 
 .site_list,
@@ -238,5 +239,12 @@ li {
   display: block;
   font-family: "Anonymous Pro", monospace;
   text-align: center;
-  line-height: 25px;
+  line-height: 23px;
+}
+
+.fa-sitemap {
+  transform: scale(0.7);
+  float: left;
+  margin-right: 10px;
+  color: grey;
 }
