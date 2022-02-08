@@ -27,12 +27,10 @@ body {
 }
 
 .logo_brand {
-  color: white;
   font-family: "Anonymous Pro", monospace;
 }
 
 .fa-code {
-  color: white;
   float: left;
   margin-right: 10px;
 }
@@ -142,13 +140,16 @@ a {
   color: white;
 }
 
+a:hover {
+  color: grey;
+}
+
 .footer-link {
   margin: 10px;
 }
 
 ul {
   list-style-type: none;
-  color: white;
   text-align: right;
   line-height: 40px;
   font-size: 20px;
