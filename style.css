@@ -181,6 +181,31 @@ li {
   margin-left: 3%;
   background-color: transparent;
   border-right: 3px solid white;
+  color: white;
+  padding: 10px;
+}
+
+.ul_one {
+  font-family: "Anonymous Pro", monospace;
+  display: block;
+  margin-top: 15px;
+  margin-left: 50px;
+}
+
+.li_one {
+  font-family: "Anonymous Pro", monospace;
+  display: block;
+  text-align: left;
+}
+
+.fa-phone,
+.fa-envelope-o {
+  margin-right: 15px;
+}
+
+.fa-map-marker {
+  transform: scale(1.2);
+  margin-right: 23px;
 }
 
 #end_footer {
