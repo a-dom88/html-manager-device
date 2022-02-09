@@ -57,6 +57,8 @@ body {
   height: 600px;
   margin: 0 auto;
   width: 80%;
+  display: block;
+  text-align: center;
 }
 
 .welcome {
@@ -247,4 +249,20 @@ li {
   float: left;
   margin-right: 10px;
   color: grey;
+}
+
+.whoweare {
+  color: white;
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wearecoders {
+  text-align: center;
+}
+
+.dovesiamo {
+  font-family: "Anonymous Pro", monospace;
+  color: white;
+  line-height: 50px;
 }
