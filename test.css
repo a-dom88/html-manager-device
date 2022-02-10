@@ -1,0 +1,26 @@
+.map {
+  float: left;
+}
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 500px;
+  width: 500px;
+  margin-right: 100px;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 500px;
+}
+
+.form1 {
+  float: left;
+}
+
+.midcontainer {
+  width: 1000px;
+  height: 1000px;
+  float: left;
+}

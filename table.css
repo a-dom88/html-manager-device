@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  font-size: 25px;
+}
+
+th,
+tr,
+td {
+  border-top: 1px solid black;
+  margin-top: 200px;
+  font-family: sans-serif;
+  padding: 5px;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  max-width: 100%;
+  width: 80%;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+tr {
+  text-align: left;
+}
+
+th {
+  max-width: 100%;
+  width: 80%;
+  font-weight: 600;
+}
+
+#mini-footer,
+#mini-header {
+  vertical-align: middle;
+  text-align: center;
+  max-width: 80%;
+  margin: auto;
+}
+
+#mini-header {
+  border-bottom: 1px solid black;
+  margin-bottom: 50px;
+}
+
+#mini-footer {
+  border-top: 1px solid black;
+  margin-top: 50px;
+}
+
+td {
+  text-align: left;
+  max-width: 30%;
+  font-weight: 100;
+}

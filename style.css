@@ -9,7 +9,7 @@
 
 body {
   background-color: black;
-  max-height: 10000px;
+  max-height: 9999000px;
 }
 
 #header {
@@ -57,7 +57,6 @@ body {
   height: 600px;
   margin: 0 auto;
   width: 80%;
-  display: block;
   text-align: center;
 }
 
@@ -308,4 +307,27 @@ li.privacylist3 {
 
 .privacypolicyparagraph {
   font-family: "Anonymous Pro", monospace;
+}
+
+.map {
+  float: left;
+}
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 500px;
+  width: 500px;
+  margin-right: 100px;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 500px;
+}
+
+.midcontainer {
+  width: 80%;
+  height: 800px;
+  float: left;
 }
