@@ -80,11 +80,12 @@ body {
 
 #container {
   background-color: white;
-  height: 400px;
+  height: auto;
   margin: 0 auto;
   width: 80%;
   min-height: 400px;
   overflow: auto;
+  padding: 0px 30px;
 }
 
 .hrpattern {
@@ -120,7 +121,7 @@ body {
   margin-bottom: 15px;
 }
 
-p {
+.pboxp {
   color: grey;
   text-align: justify;
 }
@@ -265,4 +266,46 @@ li {
   font-family: "Anonymous Pro", monospace;
   color: white;
   line-height: 50px;
+}
+
+h1.privacypolicy,
+h2.privacypolicy,
+.privacypolicyparagraph {
+  font-family: "Anonymous Pro", monospace;
+  line-height: 50px;
+}
+
+.ol-privacypolicy {
+  font-family: "Anonymous Pro", monospace;
+  margin-bottom: 50px;
+}
+
+.ol-privacypolicy2 {
+  font-family: "Anonymous Pro", monospace;
+  margin-bottom: 50px;
+  list-style-type: square;
+  margin-top: 15px;
+}
+
+li.privacylist {
+  list-style-type: decimal;
+  display: list-item;
+  margin-top: 10px;
+}
+
+li.privacylist2 {
+  list-style-type: square;
+  display: list-item;
+  margin-top: 10px;
+}
+
+li.privacylist3 {
+  display: list-item;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.privacypolicyparagraph {
+  font-family: "Anonymous Pro", monospace;
 }
